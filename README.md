@@ -1,5 +1,6 @@
 # Advance Regression Assignment
-> **Problem Statement**
+**Problem Statement**
+
 A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
 The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
@@ -19,7 +20,7 @@ You are required to model the price of houses with the available independent var
 
 ## Table of Contents
 * [Dataset Understanding](#dataset-understanding)
-* [Process Involved](#process-involvedprocess-involved)
+* [Process Involved](#process-involved)
 * [Technologies Used](#technologies-used)
 * [Conclusion](#conclusion)
 * [Acknowledgements](#acknowledgements)
@@ -48,16 +49,16 @@ You are required to model the price of houses with the available independent var
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 ## Conclusion 
--The optimal lambda value in case of Ridge and Lasso is as below:
-    Ridge - 5
-    Lasso - 0.0005
--The Mean Squared error in case of Ridge and Lasso are:
-    Ridge - 0.01362
-    Lasso - 0.01341
--The Mean Squared Error of Lasso is slightly lower than that of Ridge
--Lasso helps in feature reduction as the coefficient value of one of the features became 0, hence Lasso has a better edge over Ridge.
--Based on Lasso, the factors that generally affect the price are the Living area square feet, Zoning classification, Overall quality and condition of the house, Foundation type of the house, Number of cars that can be accommodated in the garage, Total basement area in square feet and the Basement finished square feet area.
--Therefore, the variables predicted by Lasso in the above bar chart as significant variables for predicting the price of a house.
+- The optimal lambda value in case of Ridge and Lasso is as below:
+   - Ridge - 5
+   - Lasso - 0.0005
+- The Mean Squared error in case of Ridge and Lasso are:
+   - Ridge - 0.01362
+   - Lasso - 0.01341
+- The Mean Squared Error of Lasso is slightly lower than that of Ridge
+- Lasso helps in feature reduction as the coefficient value of one of the features became 0, hence Lasso has a better edge over Ridge.
+- Based on Lasso, the factors that generally affect the price are the Living area square feet, Zoning classification, Overall quality and condition of the house, Foundation type of the house, Number of cars that can be accommodated in the garage, Total basement area in square feet and the Basement finished square feet area.
+- Therefore, the variables predicted by Lasso in the above bar chart as significant variables for predicting the price of a house.
 
 ## Acknowledgements
 Give credit here.
